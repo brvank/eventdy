@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivities.Add_EventScreenActivity"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/pb_create"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_one"
+            android:text="Title"/>
+
+        <EditText
+            android:id="@+id/et_title_add_event_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:textSize="20sp"
+            android:hint="title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_one"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="Category"/>
+
+        <EditText
+            android:id="@+id/et_category_add_event_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:textSize="20sp"
+            android:hint="category"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_one"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="Event About"/>
+
+        <EditText
+            android:id="@+id/et_about_add_event_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:textSize="20sp"
+            android:hint="about"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_one"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="Event Details"/>
+
+        <EditText
+            android:id="@+id/et_excerpt_add_event_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:textSize="20sp"
+            android:hint="details"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_one"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="Start Date(yyyy-mm-dd)"/>
+
+        <EditText
+            android:id="@+id/et_date_add_event_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            style="@style/EditTextStyle"
+            android:hint="date (eg:- yyyy-mm-dd)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_one"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="End Date(yyyy-mm-dd)"/>
+
+        <EditText
+            android:id="@+id/et_endingDate_add_event_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            style="@style/EditTextStyle"
+            android:hint="end date  (eg:- yyyy-mm-dd)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_one"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="Location"/>
+
+        <EditText
+            android:id="@+id/et_location_add_event_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            style="@style/EditTextStyle"
+            android:hint="location"/>
+
+        <Button
+            android:id="@+id/btn_create_event_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Create"/>
+
+    </LinearLayout>
+
+</ScrollView>

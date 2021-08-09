@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GettingStartedActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/landing_page">
+
+    <ProgressBar
+        android:id="@+id/pb_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:paddingHorizontal="60dp"
+        android:text="Get Started"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:background="@drawable/rectangle"/>
+
+</LinearLayout>
